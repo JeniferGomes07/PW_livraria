@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Sanchez:ital@0;1&display=swap');
+  
+  body {
+            font-family: Sanchez, sans-serif;
+            background-color: #b2b3da;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            width: 70%;
+            height: 80%;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .left, .right {
+            padding: 20px;
+        }
+        .left {
+            background-image: linear-gradient( to top, #ACB3FC, #FFFFFF 70% ); 
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: -30%;
+            font-size: 30px;
+        }
+        .left img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .right {
+            flex: 1;
+            background-color: #C6CAFF;
+        }
+        .right h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 40px;
+        }
+        .right form {
+            display: flex;
+            flex-direction: column;
+        }
+        .right input, .right select {
+            margin-bottom: 15px;
+            padding: 16px;
+            border: 1px solid black;
+            border-radius: 10px;
+            font-family: Sanchez, sans-serif;
+            font-size: 20px;
+        }
+        .right button {
+            padding: 10px;
+            width: 50%;
+            background-color: #000000;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            left: 25%;
+            position: relative;
+            font-family: Sanchez, sans-serif;
+            font-size: 25px;
+            margin-top: 15px;
+        }
+        .right button:hover {
+            background-color: #9967e9;
+        }
+
+        .colocaricone#dataNascimento {
+
+            width: 43%;
+            margin-right: 5px;
+            background-image: url('imagens/iconeData.png');
+            padding-left: 35px;
+            
+        }
+
+
+        #genero {
+
+            width: 46%;  
+            margin-left: 5px;
+            
+        }
+
+        .colocaricone#cargo {
+         
+            width: 43%;
+            margin-right: 5px;
+            padding-left: 35px;
+            background-image: url('imagens/iconeCargo.png');
+            padding-left: 35px;
+        }
+        .colocaricone{
+            padding-left: 35px;
+            background-size: 20px;
+            background-position: 10px center;
+            background-repeat: no-repeat;
+        }
+
+        .colocaricone#pnome{
+            background-image: url('imagens/iconeUser.png');
+            padding-left: 35px;
+        }
+
+        .colocaricone#dataAdmissao {
+
+            width: 37%;  
+            margin-left: 5px;
+            background-image: url('imagens/iconeData.png');
+            padding-left: 35px;
+        }
+
+        .colocaricone#salario {
+
+            background-image: url('imagens/iconeMoney.png');
+            padding-left: 35px;
+
+        }
+
+        .colocaricone#senha {
+
+            background-image: url('imagens/iconeSenha.png');
+            padding-left: 35px;
+        }
+
+        .colocaricone#botao {
+
+            background-image: url('imagens/iconeFoto.png');
+           width: 50%;
+        }
+
+        input[type="file"] {
+            
+          }
+
+          
+.avatar-upload {
+   position: relative;
+    .avatar-edit {
+        position: absolute;
+        right: 12px;
+        z-index: 1;
+        top: 10px;
+        input {
+            display: none;
+            + label {
+                display: inline-block;
+                width: 34px;
+                height: 34px;
+                margin-bottom: 0;
+                border-radius: 100%;
+                background: #FFFFFF;
+                border: 1px solid transparent;
+                box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+                cursor: pointer;
+                font-weight: normal;
+                transition: all .2s ease-in-out;
+                &:hover {
+                    background: #f1f1f1;
+                    border-color: #d6d6d6;
+                }
+                &:after {
+                    content: "\f040";
+                    font-family: 'FontAwesome';
+                    color: #757575;
+                    position: absolute;
+                    top: 10px;
+                    left: 0;
+                    right: 0;
+                    font-size: 20px;
+                    text-align: center;
+                    margin: auto;
+                }
+            }
+        }
+    }
+    .avatar-preview {
+        width: 192px;
+        height: 192px;
+        position: relative;
+        > div {
+            width: 100%;
+            height: 100%;
+            border-radius: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+}
+        .imagem {
+
+     position: absolute;
+    width: 630px !important;
+    top: -360px;
+    left: -200px;
+        }
