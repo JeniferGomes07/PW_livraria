@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Sanchez:ital@0;1&display=swap');
+body {
+    font-family: "Sanchez , sans-serif";
+    font-size: 30px;
+    color: #333;
+    background-color: #fff;
+}
+body{
+   
+background-image: url(logoInicial.png) ;
+background-repeat: no-repeat;
+background-size: 115%;
+background-position: 50% 16%;
+
+
+}
+
+.container-fluid {
+    padding-right: 45px;
+    padding-left: 35px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 100px;
+  
+}
+
+a:-webkit-any-link:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 0px solid transparent;
+}
+.container-fluid{
+    background-color: #B2B3DA;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: black;
+    margin-top: 25px;
+}
+

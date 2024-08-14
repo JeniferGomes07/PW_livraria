@@ -52,25 +52,41 @@
         .right input, .right select {
             margin-bottom: 15px;
             padding: 16px;
-            border: 1px solid black;
+            border: none;
             border-radius: 10px;
             font-family: Sanchez, sans-serif;
             font-size: 20px;
         }
-        .right button {
+        .rightBotao {
             padding: 10px;
-            width: 50%;
+            width: 40%;
             background-color: #000000;
             color: white;
             border: none;
             border-radius: 20px;
             cursor: pointer;
-            left: 25%;
+            right: -53%;
             position: relative;
             font-family: Sanchez, sans-serif;
             font-size: 25px;
             margin-top: 15px;
         }
+
+        .heightBotao {
+            padding: 10px;
+            width: 40%;
+            background-color: #000000;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            left: 8%;
+            position: relative;
+            font-family: Sanchez, sans-serif;
+            font-size: 25px;
+            margin-top: -52px;
+        }
+
         .right button:hover {
             background-color: #9967e9;
         }
@@ -200,8 +216,8 @@
 }
         .imagem {
 
-     position: absolute;
-    width: 630px !important;
-    top: -360px;
-    left: -200px;
+            position: absolute;
+            width: 665px !important;
+            top: -410px;
+            left: -235px;
         }
