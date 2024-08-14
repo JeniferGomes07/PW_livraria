@@ -87,9 +87,13 @@
             position: relative;
             font-family: Sanchez, sans-serif;
             font-size: 25px;
-            margin-top: -52px;
+            margin-top: -52px;  
+            text-decoration: none;
+            text-align: center;
         }
-
+        .heightBotao:hover{
+            background-color: #9967e9;
+        }
         .right button:hover {
             background-color: #9967e9;
         }
@@ -165,9 +169,7 @@
            width: 50%;
         }
 
-        input[type="file"] {
-            
-          }
+      
 
           
 .avatar-upload {
