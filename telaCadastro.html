@@ -25,27 +25,26 @@
         </div>
         <div class="right">
             <h2>CADASTRE-SE AQUI</h2>
-            <form>
-                <input type="text"  placeholder="Nome" required class="colocaricone" id="pnome">
-                <input type="text"  placeholder="Sobrenome" required>
+            <form action="php/insert_funcionario.php" method="post">
+                <input type="text" name="nm_funcionario" placeholder="Nome" required class="colocaricone" id="pnome">
+                <input type="text" name="sobrenome" placeholder="Sobrenome" required>
 
                 <div>
-                <input type="text" id="dataNascimento" placeholder="Data nascimento" required onfocus="(this.type='date')" onblur="(this.type='text')"  class="colocaricone" id="dataNascimento">
-                <select id="genero" required>
+                <input type="number" name="dt_nascimento"  placeholder="Data nascimento" required onfocus="(this.type='date')" onblur="(this.type='text')"  class="colocaricone" id="dataNascimento">
+                <select id="genero" required name="id_genero">
                     <option value="" disabled selected>Gênero</option>
                     <option value="male">Masculino</option>
                     <option value="female">Feminino</option>
-                    <option value="other">Outro</option>
                 </select>
                </div>
 
                <div>
-                <input type="text" id="cargo" placeholder="Cargo" required   class="colocaricone" id="cargo">
-                <input type="text" id="dataAdmissao" placeholder="Data admissão" required  onfocus="(this.type='date')" onblur="(this.type='text')"  class="colocaricone" id="dataAdmissao">
+                <input type="text" name="nm_cargo" id="cargo" placeholder="Cargo" required   class="colocaricone" id="cargo">
+                <input type="text" name="vl_salario" id="dataAdmissao" placeholder="Data admissão" required  onfocus="(this.type='date')" onblur="(this.type='text')"  class="colocaricone" id="dataAdmissao">
                </div>
 
-                <input type="number" placeholder="Salário" required class="colocaricone" id="salario">
-                <input type="password" placeholder="Senha" required class="colocaricone" id="senha"> 
+                <input type="number" name="dt_admissao" placeholder="Salário" required class="colocaricone" id="salario">
+                <input type="password" name="senha" placeholder="Senha" required class="colocaricone" id="senha"> 
                 <button type="submit" class="rightBotao">Cadastrar</button>
                 <a class="heightBotao" href="index.html">Cancelar</a>
             </form>
