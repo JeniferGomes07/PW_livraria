@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Sanchez:ital@0;1&display=swap');
+  
+  body {
+            font-family: Sanchez, sans-serif;
+            background-color: #b2b3da;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            width: 70%;
+            height: 80%;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .left, .right {
+            padding: 20px;
+        }
+        .left {
+            background-image: linear-gradient( to top, #ACB3FC, #FFFFFF 70% ); 
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: -30%;
+            font-size: 30px;
+        }
+        .left img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .right {
+            flex: 1;
+            background-color: #C6CAFF;
+        }
+        .right h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 40px;
+        }
+        .right form {
+            display: flex;
+            flex-direction: column;
+        }
+        .right input, .right select {
+            margin-bottom: 14px;
+            padding: 16px;
+            border: none;
+            border-radius: 10px;
+            font-family: Sanchez, sans-serif;
+            font-size: 20px;
+            margin-top: 25px;
+        }
+        .rightBotao {
+            padding: 10px;
+            width: 40%;
+            background-color: #000000;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            right: -56%;
+            position: relative;
+            font-family: Sanchez, sans-serif;
+            font-size: 25px;
+            margin-top: 30px;
+        }
+
+        .heightBotao {
+            padding: 10px;
+            width: 40%;
+            background-color: #000000;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            left: 5%;
+            position: relative;
+            font-family: Sanchez, sans-serif;
+            font-size: 25px;
+            margin-top: -52px; 
+            text-decoration: none;
+            text-align: center;
+        }
+        .heightBotao:hover{
+            background-color: #9967e9;
+        }
+
+        .right button:hover {
+            background-color: #9967e9;
+        }
+        .right input::placeholder {
+            font-size: 20px; /* Ajusta o tamanho do texto do placeholder */
+        }
+        
+      
+
+       
+        .colocaricone{
+            padding-left: 35px;
+            background-size: 20px;
+            background-position: 10px center;
+            background-repeat: no-repeat;
+        }
+
+        .colocaricone#pnome{
+            background-image: url('imagens/iconeUser.png');
+            padding-left: 35px;
+        }
+
+        .colocaricone#descri{
+            background-image: url('imagens/iconedescription.png');
+            padding-left: 35px;
+        }
+
+  
+        .imagem {
+
+            position: absolute;
+            width: 665px !important;
+            top: -410px;
+            left: -235px;
+        }
+        .left {
+            background-image: linear-gradient(to top, #ACB3FC, #FFFFFF 70%);
+            flex: 1;
+            display: flex;
+            align-items: center; 
+            justify-content: center; 
+            overflow: hidden; 
+            position: relative;
+        }
+        
+        .left img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; 
+        }
+
+        .right input#descri {
+            width: calc(100% - 50px); 
+            height: 150px;
+        }
+
+        .right ::placeholder#descri {
+            size: 20px;
+        }
+
+        
