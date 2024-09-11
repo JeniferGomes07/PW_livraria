@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="telacategoria.css">
+    <link rel="stylesheet" href="telaLançamentoDesp.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 <body>
@@ -15,10 +15,13 @@
         <div class="right">
             <h2>CADASTRE-SE AQUI</h2>
             <form action="" method="post">
-                <input type="text" name="nm_funcionario" placeholder="Nome" required class="colocaricone" id="pnome">
                  <div class="">
                 <textarea name="sobrenome" placeholder="Descrição" required class="colocaricone" id="descri" width="100px">&nbsp;</textarea>
                 </div>
+                <div>
+                <input type="text" name="nm_funcionario" placeholder="Nome" required class="colocaricone" id="pnome">
+                <input type="number" placeholder="Nº" required class="colocaricone" id="numero"> 
+            </div>
                 <button type="submit" class="rightBotao">Cadastrar</button>
                 <a class="heightBotao" href="telaInicial.html">Cancelar</a>
             </form>

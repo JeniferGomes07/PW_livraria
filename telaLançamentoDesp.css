@@ -97,10 +97,14 @@
             background-color: #9967e9;
         }
         .right input::placeholder {
+
             font-size: 20px; /* Ajusta o tamanho do texto do placeholder */
         }
+        .right input{
+            width: 40%;
+        }
        
-     
+        
  
        
         .colocaricone{
