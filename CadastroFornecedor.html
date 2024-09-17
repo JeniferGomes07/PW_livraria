@@ -25,20 +25,20 @@
         </div>
         <div class="right">
             <h2>CADASTRE AQUI</h2>
-            <form>
-                <input type="text"  placeholder="Nome" required class="colocaricone" id="pnome">
-                <input type="text"  placeholder="Contato" required class="colocaricone" id="contato">
+            <form action="php/insert_fornecedor.php" method="POST">
+                <input type="text"  placeholder="Nome" required class="colocaricone" id="pnome" name="nomeForne">
+                <input type="text"  placeholder="Contato" required class="colocaricone" id="contato" name="contatoForne">
 
                 <div>
-                <input type="text" id="fone" placeholder="Telefone"  class="colocaricone" id="fone">
+                <input type="text" id="fone" placeholder="Telefone"  class="colocaricone" id="fone" name="telForne">
                </div>
 
                <div>
-                <input type="text" id="email" placeholder="E-mail" required   class="colocaricone" id="email">
+                <input type="text" id="email" placeholder="E-mail" required   class="colocaricone" id="email"  name="emailForne">
                </div>
                <div>
-                <input type="text" placeholder="Endereço" required class="colocaricone" id="endereco">
-                <input type="number" placeholder="Nº" required class="colocaricone" id="numero"> 
+                <input type="text" placeholder="Endereço" required class="colocaricone" id="endereco" name="enderecoForne">
+                <input type="number" placeholder="Nº" required class="colocaricone" id="numero" name="NumeroEndereco"> 
             </div>
                 <button type="submit" class="rightBotao">Cadastrar</button>
                 <a class="heightBotao" href="telaInicial.html">Cancelar</a>

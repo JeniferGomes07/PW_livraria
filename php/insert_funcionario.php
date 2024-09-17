@@ -12,7 +12,7 @@ $senha = $_POST ['senha'];
 
 include 'conexao.php';
 
-$insert_funcionario = "INSERT INTO `tb_funcionario` (`id_funcionario`, `nm_funcionario`, `sobrenome`, `dt_nascimento`, `id_genero`, `nm_cargo`, `vl_salario`, `dt_admissao`, `senha`) VALUES (NULL, '$nm_funcionario', '$sobrenome', '$dt_nascimento', '$id_genero', '$nm_cargo', '$dt_admissao', '$vl_salario','$senha')";
+$insert_funcionario = "INSERT INTO tb_funcionario VALUES (NULL, '$nm_funcionario', '$sobrenome', '$dt_nascimento', '$id_genero', '$nm_cargo', '$vl_salario','$dt_admissao', '$senha')";
 
 
 $resultado = $conexao->query($insert_funcionario);
